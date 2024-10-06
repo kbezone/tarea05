@@ -1,0 +1,129 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/*contenedor Principal*/
+main{
+  width:900px;
+  height: 800px;
+  margin: 30px auto;
+  padding:20px;
+  border: #3ec25a 1px solid;
+  background-color: white;
+}
+/*Cabecera principal*/
+.cabecera{
+  height: 75px;
+  padding:10px;
+  background-color: #cdcdcd;
+}
+nav{ 
+  height: 40px;
+  }
+.menu{
+  margin-left: 60%; /*alineacion izquierda al medio del contenedor nav*/  
+  margin-top: 0.5em;
+  }
+.menu li{
+   display:inline; /*cambiar la presentacion de bloque por defecto a en linea*/   
+}
+/*propiedades del enlace (etiqueta a)*/
+.menu li a{  
+  font-size: 20px;
+  padding:5px;  
+  border-radius:5px 5px 0px 0px;
+  background-color: #000;
+  color:#ffff;
+  text-decoration: none;
+  }
+  .menu li a:hover{
+    background-color: cornflowerblue;
+    color:black;
+  }
+
+
+.imagen{
+  width:100px;
+  float:left;
+  margin:5px 20px;
+}
+article{
+ height: 500px;
+  width: 49%;
+  float:left; 
+}
+aside{
+  height: 500px; 
+  margin-left:51%;
+  }
+footer{
+    height: 100px;
+    clear:both;
+  }
+footer div{
+    float: left;
+  }
+.redes{
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+  }
+  body{
+    background-color: #f0ecc4;
+  }
+h1{
+  text-align: center;
+  color: white;
+}
+#html{
+  background-color: orangered;
+}
+#css{
+  background-color: #3b83bd;
+}
+#js{
+  background-color: #e2cb3e;
+}
+#php{
+  background-color: #7a4988;
+}
+span{
+  text-decoration: none;
+  color: black;
+}
+#subrayado{
+  background-color: yellow;
+  font-weight:bold;
+}
+.parrafo{
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  text-align: justify;
+}
+#pie {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+#pies{
+  background-color: #cdcdcd;
+}
+#diseño{
+  color: red;
+}
+#desa{
+  color: green;
+}
+#web{
+  color: blue;
+}
+#isil{
+  background-color: rgb(31, 189, 252);
+  color: white;
+}
+#nombre{
+  background-color: #000;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
